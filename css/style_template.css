@@ -1,0 +1,256 @@
+/* General Styles */
+body {
+
+    background-color: #ffce53;
+
+}
+
+/* Nav Styles */
+nav {
+
+    background-color: greenyellow;
+    border: 3px solid #08695e;
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 15px;
+
+}
+
+nav p, nav a {
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer Styles */
+footer {
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: greenyellow;
+    border: 3px solid #08695e;
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    border-radius: 15px;
+
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+/* Splash Section */
+.splash {
+    background-color: #f9c02e;
+}
+
+.splash h1 {
+    display: flex;
+    justify-content: center;
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #08695e;
+}
+
+.splash img {
+    border-radius: 50%;
+    border: 5px solid #08695e;
+    display: block;
+    margin: 0 auto 0 auto;
+}
+
+.splash p {
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* Horizontal Rules */
+hr {
+    border: 5px solid #08695e;
+}
+
+/* Sections */
+section {
+    font-size: 20px;
+    background-color: #d2a726;
+    border: 3px solid #16774b;
+    border-radius: 15px;
+    margin-top: 20px;
+    box-shadow: 2px 2px 4px #000000;
+}
+
+/* Section Headings */
+section h2 {
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #08695e;
+    display: flex;
+    justify-content: center;
+}
+
+section h3 {
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #08695e;
+}
+
+/* Paragraph Styles */
+section p {
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* link styles */
+section a {
+    text-decoration: none;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+
+/* List Styles */
+ul {
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+}
+
+dl {
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    display: grid;
+    grid-template-columns: [first] auto [line2] auto;
+}
+dl dt{
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    display: grid;
+}
+
+dl dd{
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    display: grid;
+}
+
+/* Project Section */
+.three-col {
+    display: grid;
+    grid-template-columns: [first] auto [line2] auto [line3] auto;
+    grid-gap: 50px;
+}
+
+.card {
+    border-radius: 25px;
+    border: 3px solid #08695e;
+    background: #5F8575;
+    box-shadow: 5px 5px 5px #48a860;
+}
+
+.card img {
+    display: block;
+    margin: 0 auto 0 auto;
+    margin-top: 10px;
+}
+
+.card h3 {
+    display: flex;
+    justify-content: center;
+    color: #083138;
+}
+
+/* Contact Page Styles */
+.one-col {
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+form input:focus, form textarea:focus {
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #007958;
+    color: gold;
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    font-size: 22px;
+    border: 5px solid #003831;
+}
+
+form button:hover {
+    cursor: pointer;
+}
