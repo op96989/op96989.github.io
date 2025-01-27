@@ -145,6 +145,7 @@ section a {
 
 section a:hover {
     text-decoration: underline;
+    cursor: pointer;
 }
 
 /* List Styles */
@@ -253,4 +254,22 @@ form button {
 
 form button:hover {
     cursor: pointer;
+}
+
+.thankyou {
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #08695e;
+}
+
+.thankyou a {
+    text-decoration: none;
+}
+
+form button:hover {
+    cursor: pointer;
+    text-decoration: underline;
 }
