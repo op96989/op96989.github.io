@@ -187,8 +187,10 @@ dl dd{
 /* Project Section */
 .three-col {
     display: grid;
-    grid-template-columns: [first] auto [line2] auto [line3] auto;
+    grid-template-columns: [first] 3fr [line2] 3fr [line3] 3fr;
     grid-gap: 50px;
+    flex-flow: row wrap;
+    max-width: 3fr;
 }
 
 .card {
@@ -256,20 +258,34 @@ form button:hover {
     cursor: pointer;
 }
 
-.thankyou {
+.thankyou h1 {
     font-family: "Afacad Flux", serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
     font-variation-settings: "slnt" 0;
     color: #08695e;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
 }
 
 .thankyou a {
+    font-family: "Afacad Flux", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "slnt" 0;
+    color: #08695e;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
     text-decoration: none;
+    margin-top: 100px;
+    margin-left: 640px;
 }
 
-form button:hover {
+a:hover {
     cursor: pointer;
     text-decoration: underline;
 }
