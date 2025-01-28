@@ -189,7 +189,7 @@ dl dd{
 /* Project Section */
 .three-col {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, minmax(30px, 1fr));
     grid-gap: 20px;
 }
 
