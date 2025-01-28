@@ -2,6 +2,8 @@
 body {
 
     background-color: #ffce53;
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -187,10 +189,8 @@ dl dd{
 /* Project Section */
 .three-col {
     display: grid;
-    grid-template-columns: [first] 3fr [line2] 3fr [line3] 3fr;
-    grid-gap: 50px;
-    flex-flow: row wrap;
-    max-width: 3fr;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
 }
 
 .card {
